@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inleiding Programmeren</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <main>
+
+        <div class="background-gif"></div>
+
+        <section class="section-h1">
+            <h1>STEL JOUW LEGO POPPETJE SAMEN</h1>
+        </section>
+
+            <section>
+                <form>
+                    <label for="naamInput">Hoe heet jouw LEGO poppetje?</label>
+                    <input type="text" id="naamInput" class="naaminput">
+                    <button type="button" id="naamButton" class="naambutton">Start</button>
+                </form>   
+                
+            </section>
+
+        
+            <section class="poppetjes-row">
+                <section class="poppetje-links">
+                    <h2>Jouw naam hier</h2>
+                    <img class="head-foto-links" src="./assets/img/regular-head.webp" alt="">
+                    <img class="body-foto-links" src="./assets/img/regular-body.png" alt="">
+                    <img class="legs-foto-links" src="./assets/img/regular-legs.png" alt=""> 
+                    <button class="confetti-button">Mijn poppetje is af! (klik voor een effect)</button>
+                </section>    
+            
+                <section>
+                    <section class="head-section">
+                        <h2 class="lichaam-tekst">HEAD</h2>
+                        <button id="head-back" class="back-button"> < </button>
+                        <img id="head-default" class="head-foto" src="./assets/img/regular-head.webp" alt="">
+                        <button id="head-forward" class="forward-button head-forward"> > </button>
+                    </section>
+            
+                    <section class="body-section">
+                        <h2 class="lichaam-tekst">BODY</h2>
+                        <button id="body-back" class="back-button body-back"> < </button>
+                        <img id="body-default" class="body-foto" src="./assets/img/regular-body.png" alt="">
+                        <button id="body-forward" class="forward-button body-forward"> > </button>
+                    </section>
+            
+                    <section class="legs-section">
+                        <h2 class="lichaam-tekst">LEGS</h2>
+                        <button id="legs-back" class="back-button legs-back"> < </button>
+                        <img id="legs-default" class="legs-foto" src="./assets/img/regular-legs.png" alt="">
+                        <button id="legs-forward" class="forward-button legs-forward"> > </button>
+                    </section>
+            
+                    <section class="twee-buttons-section">
+                        <button class="random-button">Random poppetje</button>
+                    </section>
+                </section>
+            </section>
+        
+       
+    </main>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
